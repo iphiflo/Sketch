@@ -1,0 +1,33 @@
+body{
+    background-color: gold;
+}
+
+h1{
+    color: maroon;
+    background-color: cornsilk;
+}
+
+#show_sketch
+{
+    float: right;
+}
+
+canvas{
+    border: 5px solid maroon;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example
+{
+    from{box-shadow: 1px 1px 38px rgb(189, 115, 50); }
+    to{box-shadow: 1px 1px 38px rgb(192, 77, 77);}
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
